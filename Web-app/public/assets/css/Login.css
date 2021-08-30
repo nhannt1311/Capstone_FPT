@@ -1,0 +1,143 @@
+body {
+    font-family: 'Montserrat'
+}
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        margin-top: 0;
+        margin-left: 300px;
+    }
+
+    .login-form{
+        margin-top: 30%;
+        margin-left: 50%;
+    }
+
+}
+
+.add-images .dropzone {
+    min-height: 120px;
+    background-color: #F2F2F2;
+    border: 2px dashed #e0e0e0;
+    margin-bottom: 59px;
+}
+
+.btn-login{
+    width: 415px;
+    height: 60px;
+    background-color: #00b14f;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+}
+.form-input{
+  width: 415px;
+  height: 60px;
+  border-radius: 17px;
+  border: 1px solid #d0d0d0;
+  background-color: #f1f1f1;
+  margin-bottom: 30px;
+}
+.dep{
+    color: #0A2753;
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: -60px;
+    margin-left: 10px;
+}
+.title{
+    color: #0A2753;
+    font-weight: 600;
+    font-size: 35px;
+    margin-left: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titlee{
+    color: #0A2753;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+td.datMenu {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+.datfix{
+    margin-left: 250px;
+    padding-right: 40px;
+}
+
+.titleee{
+    color: #00B14F;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleees{
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-4 {
+    max-width: 28%;
+}
+.HomeChuTo{
+    color: #0A2753;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: -5px;
+}
+.HomeChuNho{
+    color: #00B14F;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sub-title{
+    color: #00B14F;
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: -60px;
+    margin-left: 30px;
+}
+label{
+    color: #A0A0A0;
+    font-weight: 500;
+    font-size: 20px;
+}
